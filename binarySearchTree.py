@@ -5,7 +5,7 @@ class node:
         self.left = None
         self.right = None
 """
-//CHecking if given tree is proper BST
+#Checking if given tree is proper BST
 def isValidBST(node, MIN, MAX):
     if(node == None):
         return True;
